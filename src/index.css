@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
@@ -8,6 +12,6 @@
   box-sizing: border-box;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+  background-color: rgb(236, 242, 248);
+}
